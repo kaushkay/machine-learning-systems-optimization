@@ -57,6 +57,16 @@ python l1.py           # Run L1 distance benchmarks
 
 Navigate to `task2_rag_serving/` for optimized RAG implementations:
 
+System Architecture
+<div align="center">
+  <img src="assets/rag_architecture_diagram.png" alt="RAG BatchQueue Architecture" width="600"/>
+  <p><em>BatchQueue System with Dynamic Batch Processing</em></p>
+</div>
+<div align="center">
+  <img src="assets/load_balancer.png" alt="Distributed Load Balancer" width="600"/>
+  <p><em>Distributed RAG with Load Balancer & Pre-initialized Instances</em></p>
+</div>
+
 ### Running Services
 
 **Baseline Implementation:**

@@ -4,6 +4,15 @@ This directory contains optimized implementations of a Retrieval-Augmented Gener
 
 ## Architecture Overview
 
+<div align="center">
+  <img src="../assets/rag_architecture_diagram.png" alt="RAG BatchQueue Architecture" width="700"/>
+  <p><em>BatchQueue System with Dynamic Batch Processing</em></p>
+</div>
+<div align="center">
+  <img src="../assets/load_balancer.png" alt="Distributed Load Balancer Architecture" width="700"/>
+  <p><em>Distributed RAG with Load Balancer & Pre-initialized Instances</em></p>
+</div>
+
 The project implements three progressively optimized RAG service architectures:
 
 1. **Baseline** (`baseline/`): Synchronous processing baseline
